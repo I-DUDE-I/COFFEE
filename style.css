@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color:#ecd076;
+}
+
+
+nav img{
+    width: 100px;
+}
+nav h1{
+    font-size: 750%;
+    font-family: "Black Ops One", system-ui;
+    text-shadow: -4px 6px 4px black;
+    color: #301f13;
+    height: 120px;
+}
+
+nav{
+    background-color: #dc983d;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav1{
+    background-color: #dc983d;
+    color: #301f13;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: sticky;
+    top: 0px;
+    height: 25px;
+    z-index: 1;
+}
+
+#content1 .container-fluid{
+    background-color: #ecd076;
+}
+#content1 .container-fluid .p11{
+    /* border: 1px solid red; */
+    margin: 0;
+    font-size: 300%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#content1 .p22{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 120%;
+}
+
+.header{
+    text-align: center;
+    color: #301f13;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight:bolder;
+    font-size:350%;
+    text-shadow: 2px 3px 4px black;
+}
+
+#types p{
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#types li{
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sticky{
+    display: flex;
+    justify-content: end;
+    position: sticky;
+    top: 850px;
+    z-index: -1;
+    padding-right: 50px;
+}
+
+.stickyimg{
+    position: absolute;
+    top: 0px;
+}
+
+#tp .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+#tp .card1{
+    width: 25%;
+}
+#tp .card2{
+    width: 75%;
+}
+#tp h2{
+    font-weight: bolder;
+    font-size: 140%;
+}
+#tp p{
+    font-size: 130%;
+}
+#tp img{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+#tp .card21{
+    display: flex;
+    justify-content: end;
+}
+#gallery .card{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid black;
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
+}
+
+#gallery img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#gallery .container{
+    background-color: #dc983d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+
+#gallery .card:hover{
+    scale: 1.001;
+    box-shadow: 0px 0px 15px black;
+}
+#query .block{
+    border: black 3px solid;
+    border-radius: 5px;
+    background-color: #dc983d;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 130%;
+}
+#query input{
+    width: 100%;
+    border-radius: 5px;
+}
+#query textarea{
+    width: 100%;
+    border-radius: 5px;
+}
+#query button{
+    font-weight: bolder;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    background-color:#301f13;
+    padding: 0px 10px;
+}
+footer{
+    background-color: #dc983d;
+    width: 100%;
+    z-index: 0;
+}
+footer img{
+    width: 170px;
+}
+footer .col{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    flex-direction: column;
+    align-items: center;
+}
+footer i{
+    margin-left: 10px;
+}
+footer .rows{
+    display: flex;
+    justify-content: space-between;
+    gap: 300px;
+}
+
+
+
+
+
+
+
+
+
+#trial .h21,.p21{    font-family: 'Black Ops One', cursive;
+}
+#trial .h22,.p22{
+    font-family: 'Dosis', sans-serif;
+}
+#trial .h23,.p23{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#trial .h24,.p24{
+    font-family: 'Libre Baskerville', serif;
+}
+#trial .h25,.p25{
+    font-family: 'Lora', serif;
+}
+#trial .h26,.p26{
+    font-family: 'Merriweather', serif;
+}
+#trial .h27,.p27{
+    font-family: 'Rampart One', cursive;
+}
+#trial .h28,.p28{
+    font-family: 'Satisfy', cursive;
+}
+#trial .h29,.p29{
+    font-family: 'Shadows Into Light', cursive;
+}
+#trial .h10,.p10{
+    font-family: 'Tajawal', sans-serif;
+}
+#trial .h11,.p11{
+    font-family: 'Tilt Neon', cursive;
+}
+#trial .h12,.p12{
+    font-family: 'Tilt Prism', cursive; 
+}
+
+
+
+/* font-family: 'Black Ops One', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Rampart One', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Tilt Neon', cursive;
+font-family: 'Tilt Prism', cursive; */
