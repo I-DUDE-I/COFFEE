@@ -187,6 +187,34 @@ footer .rows{
     gap: 300px;
 }
 
+/* Scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    transition: all 0.6s;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background:#dc983d; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#301f13;
+    border-radius:20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#301f13; 
+    cursor:pointer;
+  }
+
+  ::-webkit-scrollbar:hover{
+    width: 12px;
+  }
+
 
 
 
