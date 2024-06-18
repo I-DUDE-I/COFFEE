@@ -74,7 +74,7 @@ nav{
     display: flex;
     justify-content: end;
     position: sticky;
-    top: 850px;
+    top: 870px;
     z-index: -1;
     padding-right: 50px;
 }
